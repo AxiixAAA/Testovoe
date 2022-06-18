@@ -1,0 +1,9 @@
+.style{
+    /* margin-bottom: 15px; */
+    height: 70px;
+}
+@media (min-width: 0px) and (max-width: 600px) {
+    .style{
+      height: 60px;
+    }
+ }
