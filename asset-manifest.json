@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/testovoe.github.io/static/css/main.6e0ce4af.css",
+    "main.js": "/testovoe.github.io/static/js/main.b5e4b73b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/testovoe.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/background.png": "/testovoe.github.io/static/media/background.92227ade034820a0cf01.png",
+    "index.html": "/testovoe.github.io/index.html",
+    "main.6e0ce4af.css.map": "/testovoe.github.io/static/css/main.6e0ce4af.css.map",
+    "main.b5e4b73b.js.map": "/testovoe.github.io/static/js/main.b5e4b73b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/testovoe.github.io/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e0ce4af.css",
+    "static/js/main.b5e4b73b.js"
+  ]
+}
