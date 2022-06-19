@@ -34,7 +34,7 @@ export const useAppStyles = () => {
     "& 	.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root.activ": {
       color: "#797EA3",
     },
-    "& 	.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused": {
+    "& 	.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused, .css-66dh3a-MuiInputBase-input-MuiInput-input, ": {
       color: "#FFFFFF",
     },
     "& 	.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root": {
@@ -43,9 +43,10 @@ export const useAppStyles = () => {
     "& 	.css-1x51dt5-MuiInputBase-input-MuiInput-input": {
       color: "white",
     },
-    "& 	.css-1a1fmpi-MuiInputBase-root-MuiInput-root:after": {
+    "& 	.css-1a1fmpi-MuiInputBase-root-MuiInput-root:after, .css-g9cew8-MuiInputBase-root-MuiInput-root:after": {
       borderBottom: "1px solid #797EA3",
     },
+    
     "& 	label[data-shrink=false]+.MuiInputBase-formControl .css-1x51dt5-MuiInputBase-input-MuiInput-input":
       {
         padding: "0px 0px 10px 0px",
@@ -83,6 +84,10 @@ export const useAppStyles = () => {
       fontWeight: "300",
       width: "121px",
     },
+    "& textarea::-webkit-scrollbar": {
+        width: '0px',
+    },
+
     [theme.breakpoints.between(0, 600)]: {
       width: "260px",
       borderRadius: "17px",

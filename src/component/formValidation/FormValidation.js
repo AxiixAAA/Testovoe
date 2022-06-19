@@ -47,30 +47,32 @@ const FormValidation = () => {
         <Form>
             <Textfield 
               name = "name"
-              label={"Name*"}
+              label="Name*"
               autoComplete='nope'
             />
             <Textfield 
               name = "company"
-              label={"Сompany*"}
+              label="Сompany*"
               autoComplete='nope'
             />
             <Textfield 
               name = "email"
-              label={"E-mail*"}
+              label="E-mail*"
               autoComplete='new-email'
             />
             <Textfield 
               name = "phone"
-              label={"Phone"}
+              label="Phone"
             />
             <Textfield 
               name = "subject"
-              label={"Subject"}
+              label="Subject"
             />
             <Textfield 
               name = "message"
-              label={"Message*"}
+              label="Message*"
+              multiline={true}
+              maxRows={2}
             />
             <Checkbox 
               name="termsOfService"
